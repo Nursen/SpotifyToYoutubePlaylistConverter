@@ -127,7 +127,7 @@ The script will generate a YouTube playlist with music videos of the songs from 
 
 The original intent of this project was to create a way to share your favorite Spotify playlists with older relatives who are perplexed by or too stubborn to create or login to a Spotify account. They'll enjoy listening to the music videos on YouTube without the hassle of signing up for a new platform. (You're welcome, mom!)
 
-This turned out to be a really fun and fast project that touches on some key programming concepts in a non-threatening way. In fact, I kind of feel like it would have been a great homework assignment in high school or college. In that spirit, I've left a couple of exercises for the reader, if you'd like to play around with the code: 
+This turned out to be a really fun and fast project that touches on some key programming concepts in a non-threatening way. In fact, I kind of feel like it would have been a great homework assignment in high school or college. In that spirit, I've left a few exercises for the reader, if you'd like to play around with the code: 
 
 1. **Mashup Machine:** Tweak the search parameters to make a list of something other than music videos. Make a playlist of movie clips, TikTok compilations, or even cooking videos that are (however loosely) based on Spotify playlists.
 
