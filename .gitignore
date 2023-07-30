@@ -1,6 +1,9 @@
 # Python virtual environment
 venv/
 
+# Lib
+/lib/
+
 # Environment variables
 .env
 
