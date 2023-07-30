@@ -1,0 +1,16 @@
+# Python virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Spotify credentials cache
+spotify_creds.json
+
+# YouTube API credentials and token files
+token.json
+client_secrets.json
+
+# SQLite database cache
+spotify_cache.sqlite
+youtube_cache.sqlite
