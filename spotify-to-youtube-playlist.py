@@ -160,6 +160,7 @@ def create_youtube_playlist(video_ids, playlist_title):
     creds = get_youtube_credentials()
     youtube = googleapiclient.discovery.build('youtube', 'v3', credentials=creds)
 
+    #TODO: Check for existence/ conflict of playlist title before creating a new one
     # Create a new playlist
     playlist_insert_response = youtube.playlists().insert(
         part='snippet,status',
@@ -176,6 +177,8 @@ def create_youtube_playlist(video_ids, playlist_title):
 
     playlist_id = playlist_insert_response['id']
 
+    #TODO: Only add videos not already in the playlist
+    #TODO: Handle exceptions, particularly Quota Exceeded exception.
     # Add videos to the playlist
     for video_id in video_ids:
         youtube.playlistItems().insert(
